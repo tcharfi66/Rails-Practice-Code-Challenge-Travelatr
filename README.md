@@ -20,11 +20,15 @@ For each model, we have a specific vision in mind:
 Blogger:
 
 1. Users should be able to create a new blogger
- 	- Bloggers should have unique names and ages above 0, and their bio should be over 30 characters long.
+ 	- Bloggers should have unique names and ages above 0, and their bio should be over 30 characters long. #VALIDATION
+
 2. Users should be able to see the profile page of a blogger. On this page, a user should see:
 	- The total likes on all of that blogger's posts
 	- A link to that blogger's featured post (the post with the most likes)
 	- **BONUS** A list of that user's top 5 most written about destinations (the destinations with the most posts)
+
+
+	NEW, CREATE, VIEW 
 
 Destination:
 
@@ -32,6 +36,8 @@ Destination:
 	- The most recent 5 posts written about this destination
 	- A link to a featured post (this destination's post with the most likes)
 	- The average age of all unique bloggers who have written about this destination.
+
+	VIEW
 
 Post:
 
@@ -44,3 +50,6 @@ Post:
 	- A link to the page of that post's author
 	- A link to the page of that post's destination
 	- A like button link that increases the like count for that post (should take the user to the same page)
+
+
+EDIT, VIEW, CREATE, NEW, UPDATE 
